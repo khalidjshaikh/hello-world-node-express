@@ -8,5 +8,5 @@ app.get('/', function(req, res) {
 
 // Listen
 var port = process.env.PORT || 3000;
-app.listen(port);
-console.log('Listening on localhost:'+ port);
+app.listen(port, '0.0.0.0');
+console.log('Listening on:'+ port);
